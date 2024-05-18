@@ -22,7 +22,7 @@ public class MainApp {
         userMiha.setUserCar(slowCar);
 
         UserService userService = context.getBean(UserService.class);
-        User user = userService.getUserByCar("Camry", 9);
+        User user = userService.getUserByCar("Niva", 2);
         System.out.println(user.toString());
 
 //        userService.add(userEgor);
